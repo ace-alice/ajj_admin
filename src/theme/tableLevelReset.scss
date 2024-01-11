@@ -1,0 +1,45 @@
+/**
+*  消除eltable 层级对图片预览的影响
+*/
+.el-table-fixed-column--right {
+  position: relative;
+  z-index: 1 !important;
+}
+
+.el-table__body-wrapper {
+  position: relative;
+  z-index: 1;
+}
+
+.current-row {
+  z-index: 0;
+}
+
+.el-table .el-table__cell {
+  position: relative;
+  z-index: unset;
+}
+
+.el-table__body {
+  border-left: 1px solid var(--el-table-border-color);
+}
+
+.el-table--border::after {
+  z-index: 0;
+}
+
+.el-table--border::before {
+  z-index: 0;
+}
+
+.el-table--border .el-table__inner-wrapper::after {
+  z-index: 0;
+}
+
+.el-table__inner-wrapper::before {
+  z-index: 0;
+}
+
+.el-table__border-left-patch {
+  z-index: 0;
+}

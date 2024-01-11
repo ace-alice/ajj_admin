@@ -1,0 +1,35 @@
+// 定义内容
+const crud = {
+  Submittedsuccessfully: '提交成功',
+  Addsuccessfully: '新增成功',
+  Editsuccessfully: '编辑成功',
+  Deletesuccessfully: '删除成功',
+  Recallsuccessfully: '撤回成功',
+  BaseHandlesuccessfully: '操作成功',
+  saveSuccessfully: '保存成功',
+  search: '搜索',
+  reset: '重置',
+  pullOrder: '补单',
+  add: '新增',
+  edit: '编辑',
+  delete: '删除',
+  'delete-hint': '数据删除后无法恢复,确定要删除吗?',
+  'recall-hint': '数据撤回后无法恢复,确定要撤回吗?',
+  'batch-delete': '批量删除',
+  export: '导出',
+  'export-hint': '点击导出即可导出文件！',
+  'no-thank': '不了,谢谢',
+  upload: '上传',
+  recall: '撤回',
+  top: '置顶',
+  concelTop: '取消置顶',
+  cancel: '取 消',
+  sure: '确 定',
+  closure: '关闭',
+  'one-minute': '一分钟',
+  'three-minute': '三分钟',
+  save: '保存',
+  submit: '提交'
+};
+
+export default { crud };
